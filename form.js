@@ -73,7 +73,7 @@ function makeMessage(to, subject, body, attachment) {
   // Combinar las partes del mensaje
   const message = messageParts.join(`\n--${boundary}\n`);
 
-  // Codificar el mensaje en base64
+  
   const encodedMessage = btoa(message);
 
   // Devolver el mensaje MIME

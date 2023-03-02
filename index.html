@@ -52,21 +52,23 @@
           
         
           <li class="links__link">
-            <form id="mi-formulario" action="facundo19burgos@gmail.com" method="post" enctype="multipart/form-data">
-              <li><label for="nombre">Nombre:</label></li>
-              <input type="text" id="nombre" name="nombre">
-        
-              <li><label for="correo">Correo electrónico:</label></li>
-              <input type="email" id="correo" name="correo">
-        
-              <li><label for="mensaje">Mensaje:</label></li>
-              <textarea id="mensaje" name="mensaje"></textarea>
-        
-              <li><label for="archivo">adjuntar archivo</label></li>
+            <form id="mi-formulario">
+              <!-- Agrega los campos de tu formulario aquí -->
+              <label for="para">Para:</label>
+              <input type="email" id="para" name="para" required>
+              <br>
+              <label for="asunto">Asunto:</label>
+              <input type="text" id="asunto" name="asunto" required>
+              <br>
+              <label for="mensaje">Mensaje:</label>
+              <textarea id="mensaje" name="mensaje" required></textarea>
+              <br>
+              <label for="archivo">Archivo:</label>
               <input type="file" id="archivo" name="archivo">
-        
-              <input type="submit" value="Enviar">
+              <br>
+              <button type="submit">Enviar</button>
             </form>
+        
         </li>
         </ul>
       </section>
@@ -74,7 +76,9 @@
     <footer>
       <button type = "button" class="button-link" href=""> Click me <p><span>&#9757;</span></p></button>
     </footer>
+    <script src="https://apis.google.com/js/api.js"></script>
     <script>src="js.form"</script>
     <script type="text/javascript" src="js.script"></script>
+
   </body>
 </html>

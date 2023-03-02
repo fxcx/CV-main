@@ -47,18 +47,34 @@
         </ul>
       </section>
       <section class="links">
-        <h2 class="links__header">Mis pasatiempos</h2>
+        <h2 class="links__header">contactame</h2>
         <ul class="links__container">
+          
+        
           <li class="links__link">
-            <p class="links__title">Author</p>
-            <a class="linsk__link" href="/"></a>
-          </li>
+            <form id="mi-formulario" action="facundo19burgos@gmail.com" method="post" enctype="multipart/form-data">
+              <li><label for="nombre">Nombre:</label></li>
+              <input type="text" id="nombre" name="nombre">
+        
+              <li><label for="correo">Correo electrónico:</label></li>
+              <input type="email" id="correo" name="correo">
+        
+              <li><label for="mensaje">Mensaje:</label></li>
+              <textarea id="mensaje" name="mensaje"></textarea>
+        
+              <li><label for="archivo">adjuntar archivo</label></li>
+              <input type="file" id="archivo" name="archivo">
+        
+              <input type="submit" value="Enviar">
+            </form>
+        </li>
         </ul>
       </section>
     </main>
     <footer>
       <button type = "button" class="button-link" href=""> Click me <p><span>&#9757;</span></p></button>
     </footer>
-    <script type="text/javascript" src="js.js"></script>
+    <script>src="js.form"</script>
+    <script type="text/javascript" src="js.script"></script>
   </body>
 </html>
